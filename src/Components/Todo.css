@@ -1,0 +1,67 @@
+.container {
+    width: 50%;
+    margin-top: 50px;
+    padding: 30px;
+    background-color: #012727d7;
+    border: none;
+    border-radius: 10px;
+} 
+h1 {
+    text-align: center;
+    color: #fff;
+}
+form {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    margin: 20px;
+}
+input {
+    width: 100%;
+}
+button {
+    margin-left: 10px;
+    background-color: transparent;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    width: 20%;
+    font-weight: bold;
+    cursor: pointer;
+}
+.list {
+    margin-top: 30px !important;
+}
+ul li {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    list-style-type: none;
+    margin: 0 20px 15px -12px;
+    padding: 10px;
+    border-radius: 3px;
+}
+.list-items {
+    display: flex;
+}
+.list-items .list-items-list {
+    flex: 1;
+}
+.list-items .list-items-icons {
+    padding-left: 5px;
+    font-size: 25px;
+    cursor: pointer;
+}
+#done {
+    color: green;
+}
+#edit {
+    color: #007bff;
+}
+#dlt {
+    color: orange;
+}
+#list-item {
+    text-decoration: line-through;
+    opacity: 0.3;
+}
